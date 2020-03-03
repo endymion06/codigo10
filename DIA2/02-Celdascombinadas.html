@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celdas Combinadas</title>
+</head>
+<body>
+    <!-- header>h1{Celdas combinadas}^nav>h2{Menu}+ul -->
+    <header>
+        <h1>Celdas combinadasfila</h1>
+    </header>
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <!-- (li>a)*3 -->
+            <li><a href="#miseccion1">Ir a demostracion 1</a></li>
+            <li><a href="">Ir a demostracion 2</a></li>
+            <li><a href="">Ir a demostracion 3</a></li>
+        </ul>
+    </nav>
+    <!-- main>section#miseccion1 -->
+    <main>
+        <section id="miseccion1">
+            <h3>Celdas Combinadas</h3>
+            <table border="3">
+                <tbody>
+                    <!-- tr*5>td 
+                    Colspan para filas rowspan para columnas-->
+                    <tr>
+                        <td colspan="2">Fila 1 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 2 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Fila 3 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">fila 4 columna 1</td>
+                        <td>fila 4 columna 2</td>
+                    </tr>
+                    <tr>
+                        <td>fila 5 columna 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="miseccion2">
+            <h3>celdas combinadas</h4>
+            <table border="3">
+                <thead>
+                    <tr>
+                        <th rowspan="3">TABLA AVANZADA</th>
+                        <th colspan="2">cabecera multiple columnas</th>
+                    </tr>
+                    <tr>
+                        <th colspan="1">primera col. cab.</th>
+                        <th colspan="1">segunda col. cab.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan="1">fila 1</th>
+                        <td colspan="1">fila 1 columna 2</td>
+                        <td colspan="1">fila 1 columna 3</td>
+                    </tr>
+                    <tr>
+                        <th colspan="1">fila 2</th>
+                        <td colspan="1">fila 2 columna 2</td>
+                        <td colspan="1">fila 2 columna 3</td>
+                    </tr>
+                </tbody>
+                <tfood>
+                    <tr>
+                        <td colspan="3"> pie de pagina</td>
+                    </tr>
+                </tfood>
+            </table>
+
+        </section>
+        <section id="miseccion3">
+            <h5>celdas</h5>
+            <table border="3">
+                <thead>
+                    <tbody>
+                        <tr>
+                            <th>fila 1 columna 1</th>
+                            <th>fila 1 columna 2</th>
+                            <th>fila 1 columna 3</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">fila 2 col 1 y2</td>
+                            <td>fila 2 col 3</td>
+                        </tr>
+                        <tr>
+                            <td>fila 3 col 1 y 2</td>
+                            <td colspan="2">fila 3 col 1</td>
+                        </tr>
+                            <td colspan="3">fila 4 col 1,2 y3</td>
+                    </tbody>
+                    <Tfoot>
+                        <tr>
+                            <td rowspan="2">fila 5 fila 6 col 1</td>
+                            <td>fila 5 col 2</td>
+                            <td rowspan="2">fila 5 y fila 6 col 3 </td>
+                        </tr>
+                        <tr>
+                            <td>fila 6 col 2</td>
+                        </tr>
+                    </Tfoot>
+                </thead>
+            </table>
+
+
+
+        </section>
+        <br>
+            <section>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>col 1</td>
+                            <td>col 2</td>
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td>columna3 3.1</td>
+                                        <td>columna3 3.2</td>
+                                        <td>columna3 3.3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>columna3 3.4</td>
+                                        <td>colunma3 3.5</td>
+                                        <td>columna3 3.6</td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>col1</td>
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td>col</td>
+                                        <td>col</td>
+                                        <td>col</td>
+                                        <td>col</td>
+                                        <td>col</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>col 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>col1</td>
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td>colunma2</td>
+                                        <td>columna2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>columna2</td>
+                                        <td>columna2</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>col3</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+    </main>
+</body>
+</html>
