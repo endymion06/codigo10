@@ -1,0 +1,50 @@
+/* todas las etiquetas que tienene el [li] y [a] */
+li, a{
+    color: purple;
+}
+/* llamar a los descendientes a cualquier nivel, h2 que sean sus hijos utilizaran estos estilos */
+section h2 {
+    color: orange;
+}
+/* a todos los hijos de sean directos de un primer nivel */
+article>h3,.aqua{
+    background-color: skyblue;
+}
+/* afectara a los hijos de un primer nivel */
+form>label{
+    border: 1px solid blueviolet;
+}
+/*  */
+.texto-grande{
+    font-family: arial;
+    font-size:40px;
+}
+/* todos los h1 que tengan como clase texto-grande  */
+h1.texto-grande{
+    font-size: 70px;
+    font-family: Helvetica;
+}
+h2.texto-grande{
+    background-color: crimson;
+}
+/* Selectores de etiquetas pero con atributos */
+input[name]{
+    background-color: chartreuse;
+    border: 3px dashed chocolate;
+}
+
+p[name="parrafo2"]{
+    font-size: 20px;
+    color: red;
+    background-color: orange;
+}
+/*  */
+input[type="email"]{
+    color: salmon;
+}
+
+#contacto textarea{
+    color: slateblue;
+    border: 2px solid red;
+}
+/*  */

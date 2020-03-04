@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    font-family: arial;
+}
+
+section{
+    color: blue;
+    border: 1px solid darkblue;
+}
+
+p{
+    color: greenyellow;
+
+}
+
+article{
+    color: violet;
+}
+
+/* selectores de clase
+clase class
+.nombreclase */
+
+.tituloarticulo{
+    color: brown;
+    font-family: Arial;
+}
+
+.borde{
+    border:1px solid black;
+}
+
+/* selectores por id
+#nombreid
+ */
+
+ #Links{
+     background-color: gray;
+ }
+
+ #Contacto{
+     color: magenta;
+ }
