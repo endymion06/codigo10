@@ -1,0 +1,23 @@
+
+body{
+    border: 1px;
+    width: 50%;
+}
+p{
+    border: 1px solid slategrey;
+}
+.a1{
+    width: 50%;
+    background-color: #cc05d4;
+    color: crimson;
+}
+.a2{
+    text-align: center;
+    word-spacing: 30px;
+}
+.a3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    overflow-x: hidden;
+    height: 50px;
+}

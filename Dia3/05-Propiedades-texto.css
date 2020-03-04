@@ -1,0 +1,70 @@
+@font-face{
+    font-family: "mifuente";
+    src: url('Kabut\ Hitam.ttf')
+}
+code {
+    color: purple;
+}
+.c-font-family{
+font-family: 'mifuente';
+}
+.c-font-size{
+    font-size: 150%;
+    color: green;
+}
+.c-font-weight{
+    font-weight: bold;
+}
+.c-fond-style{
+    font-style: italic;
+}
+.c-font{
+    font: oblique bold 20 arial;
+}
+.c-text-align{
+    text-align: center;
+}
+.c-text-align-last{
+    text-align-last: right;
+}
+.c-letter-spacing{
+    letter-spacing: 20px;
+}
+.c-word-spacing{
+    word-spacing: 20px;
+}
+.c-line-heigth{
+    line-height: 50px;
+}
+.c-vertical-align{
+    vertical-align: sub;
+
+}
+.c-rgb{
+    color: rgb(255,120,80);
+}
+.c-rgba{
+    color: rgba(100, 180,0,8);
+}
+/* dashed => punteado lineal
+    dotted => puntado con puntos
+    solid => color solido
+    none => sin linea */
+.c-bordepunteado{
+        border: 1px dotted #ff0000;
+}
+.c-widht{
+        width: 50%;
+}
+.c-heigth{
+        height: 20px;
+}
+.c-overflow{
+        overflow: auto;
+}
+.c-overflow-x{
+    overflow-x: hidden;
+}
+.c-overflow-y{
+    overflow-y: hidden;
+}
